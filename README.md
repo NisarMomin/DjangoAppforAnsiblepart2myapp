@@ -1,0 +1,1 @@
+# DjangoAppforAnsiblepart2myapp
