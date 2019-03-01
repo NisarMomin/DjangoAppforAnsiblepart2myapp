@@ -1,0 +1,6 @@
+---
+- hosts: root@client
+  vars:
+     contents: "{{ lookup('file', '/root/ansible/pack') }}"
+  tasks:
+     - command: yum install {{ contents  }} -y
